@@ -1,0 +1,21 @@
+# Flutter e Dart (pastas temporárias de compilação)
+.dart_tool/
+.idea/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Python e Flask
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Imagens temporárias salvas na API
+backend/imagens/*
+!backend/imagens/.gitkeep
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
